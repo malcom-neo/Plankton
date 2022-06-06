@@ -33,6 +33,7 @@
 #include <std_msgs/msg/float64.hpp>
 
 #include <gazebo/common/Plugin.hh>
+#include <gazebo_ros/node.hpp>                                                                                                                                                                                                                                                                                   
 
 #include <uuv_gazebo_plugins/ThrusterPlugin.h>
 

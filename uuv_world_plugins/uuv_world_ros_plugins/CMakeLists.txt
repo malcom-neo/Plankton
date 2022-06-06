@@ -14,6 +14,7 @@ find_package(uuv_world_plugins REQUIRED)
 find_package(uuv_world_ros_plugins_msgs REQUIRED)
 find_package(gazebo_msgs REQUIRED)
 find_package(gazebo_dev REQUIRED)
+find_package(gazebo_ros REQUIRED)
 find_package(ament_cmake REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(rclcpp REQUIRED)
@@ -23,6 +24,7 @@ set(LIBS
   uuv_world_ros_plugins_msgs
   gazebo_msgs
   gazebo_dev
+  gazebo_ros
   ament_cmake
   geometry_msgs
   rclcpp

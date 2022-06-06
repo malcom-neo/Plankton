@@ -36,6 +36,7 @@
 #include <gazebo/common/Plugin.hh>
 #include <gazebo/physics/World.hh>
 
+#include <gazebo_ros/node.hpp>                                                                                                                                                                                                                                                                                   
 
 #include <rclcpp/rclcpp.hpp>
 #include <geometry_msgs/msg/twist_stamped.hpp>
